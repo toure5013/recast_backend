@@ -39,8 +39,6 @@ routes.configRoutes(app, server);
 
 //=============================Start server=========================
 server.listen(nodePort);
-console("port");
-console(nodePort);
 console.log(
     'express server listening on port %d in %s mode',
     nodePort,
